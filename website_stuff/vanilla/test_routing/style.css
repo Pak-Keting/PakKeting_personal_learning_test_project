@@ -28,12 +28,16 @@
   text-align: center;
   line-height: 9rem;
 
-  transition: width,height,color,background-color 0.15s ease-out;
+  transition:
+    transform 0.1s ease-out,
+    color 0.1s ease-out,
+    background-color 0.1s ease-out;
 }
 
 .box:hover {
   color: black;
   background-color: transparent;
+  transform: scale(1.2);
 }
 
 .box.selected {
