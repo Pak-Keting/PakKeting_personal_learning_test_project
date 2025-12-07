@@ -1,0 +1,57 @@
+:root {
+  --box-clr: black;
+}
+
+
+
+
+.boxes {
+  display: flex;
+}
+
+.box {
+  width: 10rem;
+  height: 10rem;
+  margin: 2rem;
+  border-radius: 1rem;
+  box-sizing: border-box;
+  display: block;
+  
+  cursor: pointer;
+  
+  background-color: var(--box-clr);
+  border: 5px solid var(--box-clr);
+
+  font-size: 2rem;
+  color: white;
+  
+  text-align: center;
+  line-height: 9rem;
+
+  transition: width,height,color,background-color 0.15s ease-out;
+}
+
+.box:hover {
+  color: black;
+  background-color: transparent;
+}
+
+.box.selected {
+  transform: scale(1.2);
+}
+
+#box-1 {
+  --box-clr: black;
+}
+
+#box-2 {
+  --box-clr: red;
+}
+
+#box-3 {
+  --box-clr: green;
+}
+
+#box-4 {
+  --box-clr: blue;
+}
