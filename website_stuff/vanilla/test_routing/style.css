@@ -37,7 +37,6 @@
 .box:hover {
   color: black;
   background-color: transparent;
-  transform: scale(1.2);
 }
 
 .box.selected {
